@@ -201,16 +201,22 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div>
+        <div className='seventhSection'>
             <p>Register And Be Part of Our Community</p>
             <p>Join our community of over 1000+ founders, developers, and tech junkies in general. Be inspired by people who live to inspire!</p>
             <div className='seventhSectionImg'>
-                <img src={Profile} alt='profilr'/>
+                <img src={Profile} alt='profile'/>
+                <img src={Profile} alt='profile'/>
+                <img src={Profile} alt='profile'/>
+                <img src={Profile} alt='profile'/>
+                <img src={Profile} alt='profile'/>
+                <img src={Profile} alt='profile'/>
             </div>
             <button>Register Now</button>
         </div>
+
     </div>
   )
 }
 
-export default Home
+export default Home;
