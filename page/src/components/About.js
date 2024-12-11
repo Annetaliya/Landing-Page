@@ -14,14 +14,13 @@ import Conference6 from './Images/conference 6.jpeg';
 import Profile from './Images/Testimonial 3.jpg'
 import Cover from './Images/who we are.jpeg';
 
-
-const Home = () => {
+const About = () => {
   return (
-    <div className='container'>
+    <div>
         <nav className='navBar'>
             <div className='intro'>
                 <img src={Logo} alt='logo'/>
-                {/* <p>Founder's Friday</p> */}
+                
             </div>
             
             <ul>
@@ -201,7 +200,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className='seventhSection'>
+        <div className='seventhSection'> 
             <p>Register And Be Part of Our Community</p>
             <p>Join our community of over 1000+ founders, developers, and tech junkies in general. Be inspired by people who live to inspire!</p>
             <div className='seventhSectionImg'>
@@ -211,12 +210,13 @@ const Home = () => {
                 <img src={Profile} alt='profile'/>
                 <img src={Profile} alt='profile'/>
                 <img src={Profile} alt='profile'/>
+                <button> Register Now</button>
             </div>
-            <button>Register Now</button>
+            
+            
         </div>
-
     </div>
   )
 }
 
-export default Home;
+export default About
